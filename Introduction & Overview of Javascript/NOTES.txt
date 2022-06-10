@@ -1,0 +1,139 @@
+<!-- Javascript primer:
+    Declaring variable
+    Data Type:
+        primitive
+            string: 'hi', "hello"
+            number: 10, 10.34 , -2 , -2.345
+            boolean: true, false
+            undefined : undefined
+            null: null
+            Symbol- Symbol('address') !== Symbol('address')
+            BigInt
+        complex data type
+            object - {}
+            array- []
+            function
+
+Things to get ready
+Loop:
+while loop
+For Loop
+For of Loop
+For in Loop
+
+Checking data on object
+
+understanding function
+
+conditionals and ternary -->
+
+
+//var, let, const
+// var firstName = 'samim' // should avoid this
+// let lastName = 'Hasan'
+// const email = 'samimfazlu@gmail.com'
+
+// lastName = 'fazlu'
+// console.log(lastName)
+
+// const fName = 'samim'
+// console.log(typeof fName)
+
+// console.log(Symbol('address') === Symbol('address'))
+
+// const obj = {
+//   name: 'samim',
+//   age: 30,
+// }
+
+// console.log(obj.name)
+// obj.name = 'Khalil'
+// console.log(obj['name'])
+// obj.profession = 'software Developer'
+// console.log(obj)
+
+// const arr = ['samim', 30, 'programmer']
+//             // 0          1    2
+// console.log(arr[0])
+// console.log(arr[arr.length - 1])
+
+//loop
+//for loop
+//while
+//do while(X)
+
+// for(let i = 0; i < 10; i++){
+//     console.log(i)
+// }
+
+// let i = 0
+// while (i < 10) {
+//   console.log(i)
+//   i++
+// }
+
+//looping array
+// const arr = ['samim', 30, 'programmer']
+
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
+//     console.log(i)
+// }
+
+//for of loop
+// for(let elm of arr ){
+//     console.log(elm)
+// }
+
+//object looping
+// const obj = {
+//   name: 'samim',
+//   age: 30,
+// }
+
+// console.log('name' in obj)
+//for in loop
+
+// for(let key in obj){
+//     console.log(obj[key])
+//     console.log(key)
+// }
+
+//conditional
+// const age = 14
+// if (age > 18) {
+//   console.log('you can vote')
+// } else {
+//   console.log('you cant vote')
+// }
+
+// //ternary operator
+// const result = age > 18 ? 'you can vote': 'you cant vote'
+// console.log(result)
+
+
+
+
+// 50, 60
+// 50 + 60 = 110
+// 110 / 2 = 55
+
+
+// function avg(num1, num2){
+//     const total = num1 + num2 
+//     const result = total /2 
+//     return result
+// }
+
+// console.log(avg(50, 60))
+// console.log(avg(110, 120))
+
+
+//nested loop
+// for(let i = 0; i < 3; i++){
+//     for(let j = 0; j < 3; j++){
+//         console.log(i, j)
+//     }
+//     console.log(i)
+// }
+
